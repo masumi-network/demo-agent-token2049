@@ -1,0 +1,211 @@
+{
+  "provenance": "VERIFIED",
+  "sourceId": "cmuw0yy7t0004zcvbk96rybns",
+  "walletId": "cmuw0yy7w0009zcvbzcjwnn33",
+  "keyWritePending": false,
+  "runtimeKeyId": "cmuw15kk30000b9vbuwdgob1d",
+  "keyEvidence": {
+    "id": "cmuw15kk30000b9vbuwdgob1d",
+    "permission": "ReadAndPay",
+    "canRead": true,
+    "canPay": true,
+    "canAdmin": false,
+    "usageLimited": false,
+    "NetworkLimit": [
+      "Preprod"
+    ],
+    "ChainIdLimit": [
+      "cardano:preprod"
+    ],
+    "RemainingUsageCredits": [],
+    "status": "Active",
+    "walletScopeEnabled": true,
+    "WalletScopes": [
+      {
+        "hotWalletId": "cmuw0yy7w0009zcvbzcjwnn33"
+      }
+    ],
+    "x402WalletScopeEnabled": true,
+    "X402WalletScopes": []
+  },
+  "keyCorrection": "VERIFIED: GET wallet requires Admin and returned 401; GET api-key-status runtime authentication returns 200. PATCH with explicit usageLimited false corrected server update default.",
+  "runtimeAuthHttpStatus": 200,
+  "registrationWritePending": false,
+  "request": {
+    "network": "Preprod",
+    "type": "Standard",
+    "sellingWalletVkey": "500bd050898ba80e1cd68be6a999ce919f07252184f0a87f167a8192",
+    "supportedPaymentSources": [
+      {
+        "chain": "Cardano",
+        "network": "Preprod",
+        "paymentSourceType": "Web3CardanoV2",
+        "address": "addr_test1wzs4e6wc95hkwezlccjw9mdvq0r0rsgx6zk34avptga3ftgn37w4g",
+        "pricing": {
+          "pricingType": "Dynamic"
+        }
+      }
+    ],
+    "ExampleOutputs": [],
+    "Tags": [
+      "hackathon",
+      "team-names"
+    ],
+    "name": "Hackathon Team Name Finder",
+    "description": "Suggests hackathon team names from a project topic and style.",
+    "Capability": {
+      "name": "glm-5.3-flash",
+      "version": "1"
+    },
+    "Author": {
+      "name": "Sandro Schaier"
+    },
+    "apiBaseUrl": "http://127.0.0.1:21950"
+  },
+  "registrationId": "cmuw17k0a0002b9vbkwoi9qxe",
+  "registration": {
+    "error": null,
+    "id": "cmuw17k0a0002b9vbkwoi9qxe",
+    "name": "Hackathon Team Name Finder",
+    "description": "Suggests hackathon team names from a project topic and style.",
+    "type": "Standard",
+    "apiBaseUrl": "http://127.0.0.1:21950",
+    "openApiSpecUrl": null,
+    "x402ResourcesUrl": null,
+    "Capability": {
+      "name": "glm-5.3-flash",
+      "version": "1"
+    },
+    "Author": {
+      "name": "Sandro Schaier",
+      "contactEmail": null,
+      "contactOther": null,
+      "organization": null
+    },
+    "Legal": {
+      "privacyPolicy": null,
+      "terms": null,
+      "other": null
+    },
+    "state": "RegistrationConfirmed",
+    "Tags": [
+      "hackathon",
+      "team-names"
+    ],
+    "createdAt": "2026-10-06T02:00:29.962Z",
+    "updatedAt": "2026-10-06T02:07:07.370Z",
+    "lastCheckedAt": null,
+    "ExampleOutputs": [],
+    "agentIdentifier": "67ab0c92c4ac1610895a1c965ee50aba41a8f1513b15240723b3bd0b1046fff6458c9e53d82cea71877fbaf7cc4619be8a516a2657c1ae9b81000000",
+    "AgentPricing": null,
+    "sendFundingLovelace": null,
+    "supportedPaymentSources": [
+      {
+        "chain": "Cardano",
+        "network": "Preprod",
+        "paymentSourceType": "Web3CardanoV2",
+        "address": "addr_test1wzs4e6wc95hkwezlccjw9mdvq0r0rsgx6zk34avptga3ftgn37w4g",
+        "pricing": {
+          "pricingType": "Dynamic"
+        }
+      }
+    ],
+    "verifications": null,
+    "SmartContractWallet": {
+      "walletVkey": "500bd050898ba80e1cd68be6a999ce919f07252184f0a87f167a8192",
+      "walletAddress": "addr_test1qpgqh5zs3x96srsu6697d2vee6ge7pe9yxz0p2rlzeagryhjd8j8edvxlfg33fy0f8qjz8dcjx2kw22kt935d9u2kp6qlq9e6y"
+    },
+    "RecipientWallet": null,
+    "CurrentTransaction": {
+      "txHash": "4391dc1b6b192b63b7d9ac74cc5bba16acde5872d5f5384b431176b922b9a09c",
+      "status": "Confirmed",
+      "confirmations": 0,
+      "fees": "270578",
+      "blockHeight": 5258853,
+      "blockTime": 1791252421
+    }
+  },
+  "sellerVkey": "500bd050898ba80e1cd68be6a999ce919f07252184f0a87f167a8192",
+  "supportedPaymentSourceIndex": 0,
+  "smartContractAddress": "addr_test1wzs4e6wc95hkwezlccjw9mdvq0r0rsgx6zk34avptga3ftgn37w4g",
+  "agentIdentifier": "67ab0c92c4ac1610895a1c965ee50aba41a8f1513b15240723b3bd0b1046fff6458c9e53d82cea71877fbaf7cc4619be8a516a2657c1ae9b81000000",
+  "observedRegistry": {
+    "Assets": [
+      {
+        "error": null,
+        "id": "cmuw17k0a0002b9vbkwoi9qxe",
+        "name": "Hackathon Team Name Finder",
+        "description": "Suggests hackathon team names from a project topic and style.",
+        "type": "Standard",
+        "apiBaseUrl": "http://127.0.0.1:21950",
+        "openApiSpecUrl": null,
+        "x402ResourcesUrl": null,
+        "Capability": {
+          "name": "glm-5.3-flash",
+          "version": "1"
+        },
+        "Author": {
+          "name": "Sandro Schaier",
+          "contactEmail": null,
+          "contactOther": null,
+          "organization": null
+        },
+        "Legal": {
+          "privacyPolicy": null,
+          "terms": null,
+          "other": null
+        },
+        "state": "RegistrationConfirmed",
+        "Tags": [
+          "hackathon",
+          "team-names"
+        ],
+        "createdAt": "2026-10-06T02:00:29.962Z",
+        "updatedAt": "2026-10-06T02:07:07.370Z",
+        "lastCheckedAt": null,
+        "ExampleOutputs": [],
+        "agentIdentifier": "67ab0c92c4ac1610895a1c965ee50aba41a8f1513b15240723b3bd0b1046fff6458c9e53d82cea71877fbaf7cc4619be8a516a2657c1ae9b81000000",
+        "AgentPricing": null,
+        "sendFundingLovelace": null,
+        "supportedPaymentSources": [
+          {
+            "chain": "Cardano",
+            "network": "Preprod",
+            "paymentSourceType": "Web3CardanoV2",
+            "address": "addr_test1wzs4e6wc95hkwezlccjw9mdvq0r0rsgx6zk34avptga3ftgn37w4g",
+            "pricing": {
+              "pricingType": "Dynamic"
+            }
+          }
+        ],
+        "verifications": null,
+        "SmartContractWallet": {
+          "walletVkey": "500bd050898ba80e1cd68be6a999ce919f07252184f0a87f167a8192",
+          "walletAddress": "addr_test1qpgqh5zs3x96srsu6697d2vee6ge7pe9yxz0p2rlzeagryhjd8j8edvxlfg33fy0f8qjz8dcjx2kw22kt935d9u2kp6qlq9e6y"
+        },
+        "RecipientWallet": null,
+        "CurrentTransaction": {
+          "txHash": "4391dc1b6b192b63b7d9ac74cc5bba16acde5872d5f5384b431176b922b9a09c",
+          "status": "Confirmed",
+          "confirmations": 0,
+          "fees": "270578",
+          "blockHeight": 5258853,
+          "blockTime": 1791252421
+        }
+      }
+    ]
+  },
+  "registrationState": "RegistrationConfirmed",
+  "collateralEvidence": {
+    "provenance": "VERIFIED",
+    "hash": "1b0d49b7346e72f1afc0ec57970bcbb32f5435761caacba1ab6166331adbd3ab",
+    "blockfrostHttpStatus": 200,
+    "blockHeight": 5258832,
+    "latestHeightObserved": 5258841,
+    "confirmationsObserved": 10,
+    "fees": "173597",
+    "threshold": "default 1",
+    "reconcileGuard": "src/services/transactions/wallet-timeouts/service.ts:622, lockedAt older than default WALLET_LOCK_TIMEOUT_INTERVAL 300 seconds",
+    "notBefore": "2026-10-06T02:05:34Z"
+  }
+}
