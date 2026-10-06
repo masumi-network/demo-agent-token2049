@@ -1,0 +1,8 @@
+{
+  "provenance": "VERIFIED: POST /start_job",
+  "httpStatus": 200,
+  "id": "1ca41011-c197-40ff-be0c-9bfed3d82357",
+  "inputHash": "0fb65a6524da1fb8924affd9383c4ba5d00cfa5e2915e8ad69f5baae55d976d1",
+  "limit": "Signed quote only. No purchase or model execution requested.",
+  "correction": "Earlier HTTP500 came from old MPS dist. Current source quote tested here."
+}

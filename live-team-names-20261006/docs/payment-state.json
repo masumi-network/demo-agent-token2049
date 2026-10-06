@@ -1,0 +1,22 @@
+{
+  "provenance": "VERIFIED",
+  "database": "team_names_f5276509",
+  "seedPid": 47883,
+  "status": "REGISTRATION_CONFIRMED_PAID_RESULT_CONFIRMED",
+  "seedExit": 0,
+  "port": 38127,
+  "mpsRevision": "99d94cf31cad168a74281494e79d5cc56f34838d",
+  "mpsPid": 66193,
+  "loopbackEvidence": "TCP127.0.0.1:38127 LISTEN PID66193",
+  "healthEvidence": "HTTP 200 {status:success,data:{status:ok}}",
+  "sourceId": "cmuw0yy7t0004zcvbk96rybns",
+  "walletId": "cmuw0yy7w0009zcvbzcjwnn33",
+  "sellerAddress": "addr_test1qpgqh5zs3x96srsu6697d2vee6ge7pe9yxz0p2rlzeagryhjd8j8edvxlfg33fy0f8qjz8dcjx2kw22kt935d9u2kp6qlq9e6y",
+  "balanceHttpStatus": 404,
+  "balance": "not determined",
+  "runtimeBundle": ".local/mps-dist/index.js",
+  "paymentReadEvidence": "VERIFIED: scoped runtime GET /api/v1/payment?network=Preprod&limit=100 returned HTTP200 status success",
+  "runtimeCorrection": "VERIFIED: old Aug25 dist referenced absent PaymentRequest.cardanoFeeAccountingVersion. Current installed source bundled into dedicated .local/mps-dist; no schema change, reseed or re-registration.",
+  "productionTypecheck": "VERIFIED: tsc --noEmit --project .local/mps-tsconfig.json exit0. Excludes test files and generated src/frontend/dist; full source tsc failed unrelated registry/update/service.spec.ts TS2554 lines81,85.",
+  "balanceCorrection": "VERIFIED: initial HTTP404 did not determine balance. Later Blockfrost HTTP200 measured100000000 lovelace and100000000 testUSDM before registration."
+}
