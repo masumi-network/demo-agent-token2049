@@ -20,14 +20,9 @@ Create a new Coworker with an unused purpose-based name. Do not restore previous
 Framework packages and installed payment infrastructure are allowed. Previous agent application code is not.
 
 
-### Load the current guide before doing anything
+### Guide version
 
-A worktree can contain an old guide even when the prompt says "current main".
-Fetch `origin/main` and read `git show origin/main:AGENTS.md` before setup.
-Use the current remote guide for API and setup details. Preserve the live-build rules above and the user's request.
-Do not reset, discard, or overwrite existing work to update the guide.
-If fetching fails, use the newest available guide and state that version at the final checkpoint.
-Record the guide commit. A stale guide is a setup error, not a user prerequisite.
+This file is the guide for this run. Record its commit at the final checkpoint.
 
 
 ### Live demo: zero questions
@@ -53,7 +48,7 @@ Keep progress updates short. Return one final checkpoint by five minutes.
 
 The user supplies one prompt: "Build an agent for TOPIC."
 TOPIC can be any useful job. Infer its purpose, name, test input, and output format.
-Choose a small working version. Do not ask follow-up or preference questions.
+Choose a small working version.
 Build and test the agent. At the end, return its actual seller wallet address for funding.
 
 Target five minutes to a running local agent, a connected private Coworker, and a dedicated seller wallet.
@@ -64,11 +59,10 @@ Signed settlement deadlines can extend beyond five minutes. Never call an unfund
 Invoking this guide requests the local setup described below, including dedicated resources and private credential import.
 Follow the environment's actual permission controls. Do not bypass an approval rejection or security restriction.
 If something is blocked, finish independent work and report the exact blocker in the final message.
-Do not ask the user to select a framework, model, name, port, database, or workspace.
 Treat missing choices as defaults, not blockers. Only unavailable required resources can block a step.
 Do not deploy, send invitations, buy credits, transfer funds, or create billed hosting resources.
 
-Start a monotonic timer. Give a concise final checkpoint by five minutes.
+Start a monotonic timer.
 Leave healthy local services running. Preserve unfinished steps for a later "funded" or "continue" prompt.
 If a cold install is still running, record it as pending rather than claiming completion.
 
@@ -155,7 +149,7 @@ Do not spend the remaining window generating another payment stack or adding opt
 Existing tests prove their assertions only. They do not prove login, model access, or Coworker pickup.
 A running HTTP server is not a connected Coworker.
 Prove a real model turn, runtime authentication, and Task pickup before reporting a working worker.
-At five minutes, return one checkpoint. Do not repeat unchanged blocker messages.
+Do not repeat unchanged blocker messages.
 
 
 Read this project's non-secret setup record before creating anything.
@@ -281,8 +275,8 @@ Vendor creation can return:
 `Creating a vendor requires an organization workspace. Create or join an organization first.`
 If needed, create a dedicated organization through the supported authenticated Web UI when available.
 Do not invite anyone or change unrelated organizations.
-VERIFIED on 2026-10-06: CLI v1.0.4 advertises workspace list/check, not workspace creation.
-Do not invent a `workspaces create` command. If Web access is unavailable, report this prerequisite at the end.
+Check the installed `sokosumi workspaces --help` for a create command. Do not invent one.
+If no create command exists and Web access is unavailable, report this prerequisite at the end.
 Keep preparing the agent and wallet while account setup is blocked.
 
 Import the runtime credential without exposing it:
@@ -391,7 +385,7 @@ An execution-only worker can run before seller funding. Paid readiness remains b
 If workspace credits are available, run one small execution-only Task and record its completion.
 Do not open billing, purchase credits, or wait for a paid rehearsal in the five-minute setup window.
 
-Use supported CLI options: `tasks list` does not accept `--personal` in verified CLI v1.0.4.
+Check `sokosumi tasks list --help` before you pass `--personal`; some CLI versions reject it.
 Runtime start/complete require the Coworker credential and `--personal` for this flow.
 Use the authoritative started Task input rather than an earlier list snapshot.
 Save exact UTF-8 result bytes before completing a Task. Unknown writes require inspection before retry.
